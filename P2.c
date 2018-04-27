@@ -1,6 +1,8 @@
 //Marcos Barros de Oliveira Sírio
 //Matrícula: 11721EBI018
 
+#include <stdio.h>
+
 void BinDec(){
    int i=0,j=0,k, mult=1, bin[256], soma=0;
 	char binario[256];
@@ -22,8 +24,8 @@ void BinDec(){
 		j++;
 }
     printf("\nO binario %s em decimal e: %d \n\n\n", binario,soma);
-    return 0;
 }
+
 
 void BinHex(){
 	int i=0,j=0,k, mult=1, bin[256], soma=0;
@@ -46,7 +48,7 @@ void BinHex(){
 		j++;
 }
     printf("\nO binario %s em hexadecimal e: %X \n\n\n", binario,soma);
-    return 0;
+    
 }
 	    
 void HexDec(){
@@ -54,7 +56,7 @@ void HexDec(){
     printf("\nDigite um numero a ser convertido: ");
         scanf("%x" ,&hexadecimal);
         printf("O hexadecimal %x em decimal e: %d" ,hexadecimal);
-    return 0;
+    
 }	
 
 void HexBin(){
@@ -78,7 +80,7 @@ i--;
    i--;
    }
 printf("\n");
-return(0);}
+}
 
 void DecBin(){
 int decimal,i,q[80],r[80];
@@ -101,14 +103,14 @@ i--;
    i--;
    }
 printf("\n");
-return(0);}
+}
 
 void DecHex(){
 	 int decimal;
     printf("\n Informe um numero em decimal: ");
         scanf("%d" ,&decimal);
         printf("O decimal %d em hexadecimal e: %x" , decimal, decimal);
-    return 0;
+   
 }
 
 void OctDec(){
@@ -116,7 +118,7 @@ void OctDec(){
     printf("\n Informe um numero em octal: ");
         scanf("%o" ,&octal);
         printf("O octal %o em hexadecimal e: %x" , octal, octal);
-    return 0;
+    
 }
 
 void DecOct(){
@@ -124,7 +126,7 @@ int decimal;
     printf("\nDigite um numero a ser convertido: ");
         scanf("%d" ,&decimal);
         printf("O hexadecimal %d em octal e: %o" ,decimal,decimal);
-    return 0;
+    
 }
 
 int main(){
