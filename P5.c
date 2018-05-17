@@ -4,7 +4,7 @@
 
 int main()
 {	char string[256], *p;
-	int i=0, contador, texto[256], opcao,*pts;
+	int i=0, texto[256], opcao, contador,*pts;
 	printf("Voce deseja: \n1 - Criptografar \n2 - Descriptografar \n");
 	scanf("%d", &opcao);
 	getchar();
