@@ -8,6 +8,7 @@ void BinDec(){
 	char binario[256];
 	printf("\nDigite um numero a ser convertido: ");
 	scanf("%s", &binario);
+	getchar();
 	for(i=0; binario[i]!='\0'; i++);
 	i--;
 	k=i;
@@ -32,6 +33,7 @@ void BinHex(){
 	char binario[256];
 	printf("\nDigite um numero a ser convertido: ");
 	scanf("%s", &binario);
+	getchar();
 	for(i=0; binario[i]!='\0'; i++);
 	i--;
 	k=i;
@@ -55,7 +57,7 @@ void HexDec(){
  int hexadecimal;
     printf("\nDigite um numero a ser convertido: ");
         scanf("%x" ,&hexadecimal);
-        printf("O hexadecimal %x em decimal e: %d" ,hexadecimal);
+        printf("O hexadecimal %x em decimal e: %d" ,hexadecimal, hexadecimal);
     
 }	
 
