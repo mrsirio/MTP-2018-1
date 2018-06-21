@@ -20,6 +20,6 @@ int main(){
 	printf("\nDigite um valor para n: ");
 	scanf("%d", &n);
 	getchar();
-	printf("\n Valor resultante: %d", funcao_ackermann(m,n));
+	printf("\n Valor resultante: %ld", funcao_ackermann(m,n));
 return 0;
 }
