@@ -7,7 +7,7 @@ void BinDec(){
    int i=0,j=0,k, mult=1, bin[256], soma=0;
 	char binario[256];
 	printf("\nDigite um numero a ser convertido: ");
-	scanf("%s", &binario);
+	scanf("%s", binario);
 	getchar();
 	for(i=0; binario[i]!='\0'; i++);
 	i--;
@@ -32,7 +32,7 @@ void BinHex(){
 	int i=0,j=0,k, mult=1, bin[256], soma=0;
 	char binario[256];
 	printf("\nDigite um numero a ser convertido: ");
-	scanf("%s", &binario);
+	scanf("%s", binario);
 	getchar();
 	for(i=0; binario[i]!='\0'; i++);
 	i--;
