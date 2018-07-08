@@ -11,11 +11,14 @@ int main(){
 	getchar();
 	printf("\nSequencia so com numeros: ");
 	for(i=0; string[i]!='\0'; i++){
-		if('0'<=string[i] && string[i]<='9'){
-			printf("%c", string[i]);
-			string2[j]=string[i];
-			j++;}
-		}
+		if(string[i] >= 48 && string[i]<= 57)
+		{	string2[i]= string[i] - 48;
+			i++;	}
+			}
+	j=0;
+	printf("Valor retornado = ");
+	do{	printf("%d", num1[j]);
+		j++; }while(j<i);
 	printf("\n\n\n");
   return 0;
 }
