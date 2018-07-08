@@ -1,5 +1,3 @@
-\\Marcos Barros de Oliveira Sirio
-\\11721EBI018
 #include <stdio.h>
 #include <stdlib.h>
 
