@@ -35,7 +35,7 @@ void pesquisar(struct prod vet_prod[], int i){
 	char condicional[64];
 	strcpy(condicional, " ");
 	if(strcmp(condicional, vet_prod[i].nome) == 0){
-		printf("\nprod nao cadastrado!");
+		printf("\nO produto nao esta cadastrado!");
 	}
 	else{
 		printf("\n %s, R$ %.2f, L: %.2fm x P: %.2fm x A: %.2fm",vet_prod[i].nome, vet_prod[i].preco, vet_prod[i].end.largura, vet_prod[i].end.profundidade, vet_prod[i].end.altura);
@@ -75,7 +75,7 @@ int main()
 			}
 			break;
 		case 2:	
-			printf("\nEscolha o prod 1 ou 2:");
+			printf("\nEscolha o produto 1 ou 2:");
 			scanf("%d", &prod);
 			getchar();
 			switch(prod){
