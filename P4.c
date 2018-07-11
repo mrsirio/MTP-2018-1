@@ -17,7 +17,7 @@ int main(){
 			}
 	j=0;
 	printf("Valor retornado = ");
-	do{	printf("%d", num1[j]);
+	do{	printf("%d", string2[j]);
 		j++; }while(j<i);
 	printf("\n\n\n");
   return 0;
